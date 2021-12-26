@@ -85,12 +85,6 @@ namespace MapNotify
 
         public override void DrawSettings()
         {
-            ImGui.Text("Plugin by Lachrymatory. https://github.com/Lachrymatory/MapNotify/");
-            ImGui.Text("Please give suggestions, report issues, etc. below:");
-            if (ImGui.Button("Lachrymatory's GitHub")) 
-                System.Diagnostics.Process.Start("https://github.com/Lachrymatory/MapNotify/");
-            ImGui.Separator();
-
 
             if (ImGui.TreeNodeEx("Core Settings", ImGuiTreeNodeFlags.CollapsingHeader))
             {
